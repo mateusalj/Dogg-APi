@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image-container{
+    height: 100vh;
+    background-color: black;
+}
+
+#dog-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#breed-name{
+    position: absolute;
+    bottom: 0;
+    font-size: 6vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    -webkit-text-stroke: 2px yellow;
+}
